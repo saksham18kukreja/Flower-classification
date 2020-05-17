@@ -7,5 +7,5 @@ Classify 5 different flowers using CNN
 3) Keras and Python to implement CNN
 
 # Loss and Accuracy
-accuracy achieved is 89.3%
-
+**accuracy achieved is 89.3%**
+![](graph.png)
