@@ -1,16 +1,3 @@
-# initial commands to download the dataset and split into training and validation datasets
-from google.colab import files
-files.upload()
-
-! mkdir ~/.kaggle 
-! cp kaggle.json ~/.kaggle/
-! chmod 600 ~/.kaggle/kaggle.json
-
-! kaggle datasets download -d alxmamaev/flowers-recognition
-
-!mkdir flowers
-!unzip flowers-recognition.zip -d flowers
-
 #Splitting the dataset into Training and Validation
 import split_folders
 split_folders.ratio('flowers/flowers/flowers', output="output", seed=1337, ratio=(.8, .2))
