@@ -132,9 +132,3 @@ file = cv2.imread('Daisy.jpg')
 prediction = predict_image(file,model1)
 plt.imshow(file)
 print('the model predicted a %s'%(prediction))
-
-
-
-
-
-
