@@ -1,5 +1,5 @@
 # Flower-classification
-Classify 5 different types of flower using CNN
+Classify 5 different types of flower using CNN.<br> 
 Flower type include
 1) Rose
 2) Dandelion
