@@ -79,6 +79,3 @@ plt.plot(loss,'y',label='training-loss')
 plt.legend()
 plt.xlabel('epochs')
 plt.title('flowers-classification')
-
-
-
